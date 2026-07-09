@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <style>
+    body {
+    font-family: "Arial", sans-serif;
+    }
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #cc0044;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: white;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #807f626b;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    
+}
+
+.game--status {
+    font-size: 50px;
+    color: #cc0044;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.game--restart {
+    height: 50px;
+    width: 100px;
+    color: #ddd3d6;
+    background-color: #cc0044;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    margin-left: 30%;
+    margin-right: 7%;
+    outline:rgb(255 255 255/26%)
+    
+}
+
+#game--newgame {
+    height: 50px;
+    width: 100px;
+    color: #ddd3d6;
+    background-color: #000099;
+    padding-right: 5px;
+    border: none;
+    margin-left: 0%;
+    outline:rgb(255 255 255/26%)
+}
+
+#game--buttons {
+    margin-right: 24%;
+    margin-left: 4%;
+}
+   </style>
+</head>
+<body>
+    <section>
+        <h1 class="game--title">Tic Tac Toe</h1>
+        <div class="game--container">
+            <!--The code of the grid-->
+            <div data-block-index="0" class="cell"></div>
+            <div data-block-index="1" class="cell"></div>
+            <div data-block-index="2" class="cell"></div>
+            <div data-block-index="3" class="cell"></div>
+            <div data-block-index="4" class="cell"></div>
+            <div data-block-index="5" class="cell"></div>
+            <div data-block-index="6" class="cell"></div>
+            <div data-block-index="7" class="cell"></div>
+            <div data-block-index="8" class="cell"></div>
+        </div>
+        <!-- The game status-->
+        <h2 class="game--status"></h2>
+        <div id="game--buttons">
+        <!-- The restart button and the new game button that takes you back to the startup page-->
+        <button class="game--restart">Restart Game</button>
+    <a href="Tic-tac-toe3-Startuppage.html"><button id="game--newgame">New Game</button></a>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
