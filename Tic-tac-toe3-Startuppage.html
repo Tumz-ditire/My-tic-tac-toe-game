@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PopUp</title>
+    <style>
+    body {
+    font-family: "Arial", sans-serif;
+    }
+
+    #popup-container {
+    height: 220px;
+    width: 400px;
+    background: linear-gradient(to bottom, #9900cc 50%, #660066);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: inset 1px 2px 0px rgb(255 255 255 / 18%), inset -2px -2px 2px rgb(0 0 0 / 65%);
+    display: block;
+   
+    
+    }
+
+    #popup-page #button button:hover{
+    transform: scale(0.90);
+    }
+
+    hr {
+    border-radius: 3px;
+    }
+
+    #popup-page h2 {
+    font-size: 40px;
+    color:#cc0044;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    }
+
+    h3, p {
+    color: #ffffff;
+    font-size: px;
+    }
+
+    playerO {
+    border: none;
+    outline: none;
+    
+    }
+
+    #popup-page #playerX, #playerO {
+    height: 50px;
+    width: 175px;
+    cursor: pointer;
+    background: #04c0b2;
+    border: none;
+    outline: none;
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transform: scale(1);
+    box-shadow: 2px 2px 2px rgb(255 255 255/26%), -2px -2px 5px rgb(0 0 0 / 87%);
+    transition: 0.5s;
+
+    }
+
+    #popup-page #button button:first-child {
+        margin-right: 40px;
+    }
+
+    #playerO {
+        padding-right: 10px;
+    } 
+
+    </style>
+</head>
+<body>
+    <div id="popup-container">
+        <!--popup page-->
+        <div id="popup-page">
+            <h2>Tic Tac Toe</h2>
+            <hr>
+            <p>Welcome</p>
+            <h3>Select which player you want to be:</h3>
+            <div id="button">
+                <!--Both buttons lead to the game page-->
+                <a href="Tic-tac-toe3.html"><button id="playerX">Player ( X )</button><button id="playerO">Player ( O )</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
