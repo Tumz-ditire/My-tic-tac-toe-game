@@ -63,8 +63,5 @@ Development & Customization
 Contributing
 Contributions are welcome. If you'd like to add features (single-player AI, score tracking, online multiplayer), open an issue or submit a pull request with a description of your changes.
 
-License
-This project is licensed under the MIT License — see the `LICENSE` file for details.
-
 Contact
 Repository owner: Tumz-ditire
