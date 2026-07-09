@@ -7,7 +7,6 @@ Demo / Files
 - Game page: `Tic-tac-toe3.html` — the playable Tic-Tac-Toe board (linked from the start page).
 - JavaScript logic: `Script.js` — contains the game logic (player turns, win/draw detection, restart).
 - Stylesheet: `styles.css` — centralized styles extracted from the startup page.
-- Screenshot: `Tic tac toe game.PNG` — a visual of the project.
 
 Features
 - Two-player local gameplay (players alternate between X and O)
@@ -49,10 +48,6 @@ After enabling, the demo will usually be available at:
 https://Tumz-ditire.github.io/My-tic-tac-toe-game/
 
 Note: GitHub Pages may take a minute to build. If the URL above doesn't work, check the Pages settings for the exact published URL.
-
-Screenshots
-
-![Tic Tac Toe screenshot](Tic%20tac%20toe%20game.PNG)
 
 Gameplay
 - Click a cell to place the current player's mark (X or O).
